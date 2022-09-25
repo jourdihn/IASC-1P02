@@ -1,0 +1,36 @@
+/*DO NOT FORGET SEMICOLONS*/
+
+body {
+    background-color: black;}
+
+p{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.greenText {
+    color:green;
+    text-align: center;
+}
+
+.orangeText {
+    color: orange;
+}
+
+.purpleText {
+    color: purple;
+    text-align: right;
+}
+
+.redSuper{
+    color: red;
+    vertical-align: super;
+    font-size: 30px;
+}
+
+.yellowItalics{
+    color: yellow;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 43px;
+}
