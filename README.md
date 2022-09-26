@@ -3,9 +3,11 @@ Digital Repository for IASC 1P02
 
 ## Module 1 
 
-[Week 1 Lab]() 
+[Week 1 Lab](Week1Compiled.html) 
 
 ## Module 2
+
+(files missing on other computer) 
 
 ## Module 3
 
