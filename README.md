@@ -22,7 +22,7 @@ Digital Repository for IASC 1P02
 
 [Lab 4: Part 2](Lab4.2.html)
 
-[Lab 4: Part 3]()
+[Lab 4: Part 3](Lab4.3.html)
 
 ## Assignments 
 
