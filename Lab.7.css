@@ -1,0 +1,157 @@
+body{
+    font-family: sans-serif;
+    background-color: #2F2520;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #2F2520;
+}
+
+/* Add a black background color to the top navigation */
+.topNav {
+    background: #1E1E1E;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topNav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topNav a:hover {
+    background: #B3BF77;
+    color: #2F2520;
+  }
+  
+  /* Add a color to the active/current link */
+  .topNav a.active {
+    background: #B3BF77;
+    color: #2F2520;
+  }
+
+  .navButton{
+    background-color: #B3BF77; /* Green */
+    border-radius: 20px;
+    color: #2F2520;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    margin-right:7px;
+  }
+
+.leftBody, #image {
+width: 557px;
+margin: 1px;
+height: 700px;
+float: left;
+}
+
+.rightBody {
+    width: 800px;
+    height: 700px;
+    float: right;
+}
+
+.rightText{
+    width: 780px;
+    height: 330px;
+    margin: 10px;
+    padding-top: 200px;
+    
+}
+
+.rightBody {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E1D7CC;
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E1D7CC;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    color: #D26A3C;
+    margin: 0px;
+}
+
+#subtitle{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 130.02%;
+    color: #E1D7CC;
+    margin: 0px;
+}
+
+
+.bookingButton {
+    border-color: #B3BF77;
+    border-radius: 20px;
+    color: #B3BF77;
+    background-color: #2F2520;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-content{
+    clear: both;
+    width: 1400px;
+    height: auto;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footerTitle {
+    font-size: 12px;
+    color:#E1D7CC;
+    margin-bottom: 0;
+}
+
+#footerText {
+    font-size: 10px;
+    color:#E1D7CC;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socialIcons {
+    height: 30px;
+    width: 30px;
+}
