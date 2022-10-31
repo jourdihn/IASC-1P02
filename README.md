@@ -24,6 +24,25 @@ Digital Repository for IASC 1P02
 
 [Lab 4: Part 3](Lab4.3.html)
 
+## Module 5
+
+have not submitted yet
+
+## Module 6
+
+submission not uploaded to Github
+
+# Module 7
+[Lab 7: Website Re-Design (HTML)](Lab.7.html)
+
+[Lab 7 Wireframe](https://wireframe.cc/UWtUI7)
+
+[Lab 7 Mockup](https://www.figma.com/file/xInJiX0i4Z5zYibQPHTxdT/Untitled?node-id=0%3A1)
+
+[Lab 7 Re-Design Document]()
+
 ## Assignments 
 
 [Assignment 1: HTML Standards](Assigment1.html)
+
+[Assignment 2: HTML & CSS Standards](Assignment2.html)
