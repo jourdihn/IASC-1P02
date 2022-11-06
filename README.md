@@ -52,11 +52,11 @@ Submission not uploaded to Github
 
 ### Module 8: JavaScript 
 
-[Lab 8: Part 1]()
+[Lab 8: Part 1](lab8cc1.html)
 
-[Lab 8: Part 2]()
+[Lab 8: Part 2](lab8cc2.html)
 
-[Lab 8: Part 3]()
+[Lab 8: Part 3](lab8cc3.html)
 
 ### Module 9
 
