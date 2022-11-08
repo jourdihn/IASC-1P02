@@ -1,0 +1,114 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+         <!--The head contains all of the confirguration items for our page-->
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+         <meta content="en-us" http-equiv="Content-Language" />
+         <title>Arngern.net</title>
+         <link href="Assignment3.css" type="text/css" rel="stylesheet" />
+         <script type="text/javascript" src="Assignment3.js"></script>
+    </head>
+
+    <body>
+        <div class="banner">
+            <p id="bannerText">Free shipping on orders over $90!</p>
+        </div>
+        <div class="pageWrapper">
+            <div class="navigation">
+                <img src="Arngern Logo.svg" alt="line drawing image of man with bold text reading: Arngren"/>   
+                <div class="accountIcons">
+                    <img class="iconImages" src="shopping-bag.svg" alt="Shopping bag icon"/>
+                    <img class="iconImages" src="heart.svg" alt="Heart icon"/>
+                    <img class="iconImages" src="user.svg" alt="Simplified user icon"/>
+                </div>
+            </div>
+            <div class="topNav">
+                <button class="navButton" type="button">All Departments</button>
+                <a class="active" href="#home"> Home</a>
+                <a href="#ATV, Scooters & Cars">ATV, Scooters & Cars</a>
+                <a href="#RC Vehicles">RC Vehicles</a>
+                <a href="#Drones">Drones</a>
+                <a href="#Accessories">Accessories</a>
+                <a href="#sale">Sale</a>
+            </div>
+            <hr>
+            <div class="slideshowContainer">
+            <!--Attribution: I used the image container and the Next/Previous components on: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+            <!--Unfortunately, I cannot figure out why the image container does not appear on page load-->
+                <div class="slideshowImage"> 
+                    <img src="Advertisement 1.png" alt="large image spanning a large portion of the page that reads: Mega Sale"/>
+                </div>
+                <div class="slideshowImage">
+                    <img src="Advertisement 2.png" alt="large image spanning a large portion of the page that reads: Brand New"/>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <hr>
+            <div class="Products">
+                <h2>Featured Products</h2>
+                <div class="productList">
+                    <div class="item">
+                        <img class="productPhoto" src="Photo (1).png" alt="Remonte controlled helicopter"/>
+                        <p>Falcon 450 Pro Remote Controlled Helicopter</p>
+                        <button class="productButton">View</button>
+                    </div>
+                    <div class="item">
+                        <img class="productPhoto" src="Photo (2).png" alt="Remonte controlled Hovercraft"/>
+                        <p>DRAGSTAIR RC Race Hovercraft 3000</p>
+                        <button class="productButton">View</button>
+                    </div>
+                    <div class="item">
+                        <img class="productPhoto" src="Photo (3).png" alt="Remonte controlled racing truck"/>
+                        <p>ATRacing 4WD Short Course RC Truck </p>
+                        <button class="productButton">View</button>
+                    </div>
+                    <div class="item">
+                        <img class="productPhoto" src="Photo.png" alt="Remonte controlled drone"/>
+                        <p>Walkera QR X350 PRO with iLook Camera</p>
+                        <button class="productButton">View</button>
+                    </div>
+                </div>
+                <h2>Sales, Markdowns & Clearance Items</h2>
+                 <div class="productList">
+                    <div class="item">
+                        <img class="productPhoto" src="Photo (5).png" alt="Remonte controlled drone"/>
+                        <p>Walkera Scout X4 with iLook Camera & Follow Me Function</p>
+                        <button class="productButton">View</button>
+                    </div>
+                    <div class="item">
+                         <img class="productPhoto" src="Photo (6).png" alt="battery"/>
+                         <p>Gens aco LiPo Battery for RC Vehicles (14.8V)</p>
+                         <button class="productButton">View</button>
+                    </div>
+                    <div class="item">
+                        <img class="productPhoto" src="Photo (7).png" alt="small LED lights"/>
+                        <p>LED Lights for RC Vehicle (7.4v to 11.1v) </p>
+                        <button class="productButton">View</button>
+                    </div>
+                    <div class="item">
+                        <img class="productPhoto" src="Photo (4).png" alt="Two remonte controlled helicopters"/>
+                        <p>Art-Tech Angel 300 Double Rotor RC Helicopter</p>
+                        <button class="productButton">View</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <h3>Arngren</h3>
+                <p>At Arngern, we hold ourselves to the highest standards when handling your personal information. </p>
+                <p>Shop safely and securely using any of your preferred methods of payment</p>
+                <ul class="paymentMethods">
+                    <li><i class="visa"> <img class="paymentLogos" src="Visa.png" alt="Visa logo"></i></li>
+                    <li><i class="mastercard"> <img class="paymentLogos" src="Mastercard.png" alt="Mastercard Logo"></i></li> 
+                    <li><i class="applePay"> <img class="paymentLogos" src="ApplePay.png" alt="ApplePay Logo"></i></li> 
+                    <li><i class="payPal"> <img class="paymentLogos" src="Paypal Logo.png" alt="PayPal Logo"></i></li>
+                </ul>
+                
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
