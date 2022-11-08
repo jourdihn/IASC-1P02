@@ -6,7 +6,9 @@
 
 [Assignment 2: HTML & CSS Standards](Assignment2.html)
 
-[Assignment 3: Bad Website Re-Design]()
+[Assignment 3: Bad Website Re-Design](Assignment3.html)
+
+[Assignment 4]()
 
 ## Labs 
 
