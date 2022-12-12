@@ -1,0 +1,214 @@
+.product-container{
+  width: 100%;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product-section{
+  margin: 1rem;
+  padding-bottom: 5rem;
+}
+
+h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size:xx-large;
+}
+
+
+.searchBar {
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+.btn-outline-secondary:hover, .button-addon2:hover > a:hover{
+  color: white !important;
+  border-color: #24036A;
+  background-color: #24036A;
+}
+
+.form-control:focus {
+  border-color: #24036A;
+  box-shadow: none;
+}
+
+.userIcons{
+  margin-left: 2%;
+}
+
+.nav-item-icons{
+  padding: 0px 10px;
+}
+
+.navbar-nav > li > a.active {
+    color: #24036A  !important;
+    font-weight: 500;
+  }
+  
+  .navbar-nav > li > a:hover {
+    color: #24036A !important
+  }
+  
+  .navbar-nav, .nav-link, a.nav-link.dropdown-toggle {
+    color: #1a1a1a !important;
+  }
+
+  /*Instructions on how to use icons as buttons found here: https://www.w3schools.com/howto/howto_css_icon_buttons.asp*/
+.nav-item-icons > .btn {
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-item-icons > .btn:hover {
+  color: #24036A;
+}
+
+#orderTotal{
+  justify-content: start;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+  /*Modifications for the Product Cards*/
+  .card-img-top {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    display: flex;
+  }
+
+  .btn-primary{
+    background-color: #24036A;
+    justify-content: center;
+    display: flex;
+  }
+
+  .btn-primary:active {
+    background-color: #24036A
+  }
+
+  .btn-primary:hover {
+    background-color: #24036A;
+  }
+
+  .btn-primary:focus{
+    background-color: #24036A;
+  }
+
+  /*This is modifying the btn-primary colors. In order to bypass Bootstrap's SASS documentation, I used this method found at: https://stackoverflow.com/questions/25923623/change-hover-color-on-a-button-with-bootstrap-customization*/
+  .btn-primary {
+  color: #fff;
+  background-color: #24036A;
+  border-color: #24036A; 
+  }
+/*This modifies the colour of the input box when active. To bypass Bootstrap's SASS documentation, I used this method: https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow*/
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #401d8b;
+  border-color: #401d8b; 
+  }
+
+  .card-footer {
+    border-color: white;
+    background-color: white;
+  }
+
+  .lists{
+    margin: 1rem;
+  }
+
+  .banner{
+    margin-top: 2rem;
+  }
+  .footer-container{
+    padding-top: 1rem;
+}
+
+li > .mb-2{
+  color: #24036A;
+}
+
+#profileImage {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    height: 12rem;
+    width: auto;  
+}
+
+.card-body-profile {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+}
+
+.purchaseButtons {
+    padding-right: 1rem;
+}
+
+#productImage{
+    height: 600;
+    width: auto;
+}
+
+h5{
+    font-weight: 300;
+    font-size: medium;
+}
+
+body{
+
+	background-color: #F3F3F3;
+}
+
+
+.badge{
+
+	font-size: 25px;
+	font-weight: 200;
+}
+
+.badge i {
+
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.about-rating{
+
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.total-ratings{
+
+	font-size: 12px;
+
+}
+
+.bg-custom{
+
+	background-color: #b7dd29 !important;
+}
+
+.progress{
+	margin-top:10px;
+}
+
+.container-fluid{
+  background-color: #fff;
+}
+
+#clock {
+  padding-top: 0px;
+  font-size: large;
+  font-weight: 500;
+  color: #24036A;
+}
